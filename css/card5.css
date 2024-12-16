@@ -1,0 +1,103 @@
+*{ 
+    padding: 0; 
+    margin: 0; 
+    border: 0; 
+    text-decoration: none; 
+    box-sizing: border-box;
+} 
+    
+:focus,:active{outline: none;} 
+a:focus,a:active{outline: none;} 
+    
+nav,footer,header,aside{display: block;} 
+    
+:root{ 
+    --boss: rgb(160, 160, 160); 
+    --colors: rgb(210, 198, 198); 
+}  
+    
+input,button,textarea{font-family:inherit;} 
+    
+input::-ms-clear{display: none;} 
+button{cursor: pointer;} 
+button::-moz-focus-inner {padding:0;border:0;} 
+a, a:visited{text-decoration: none;} 
+a:hover{text-decoration: none;} 
+ul li{list-style: none;} 
+img{vertical-align: top;} 
+    
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;} 
+    
+html{ 
+    scroll-behavior: smooth; 
+}
+
+
+html , body {
+    background-color: black;
+}
+
+body {
+    background: url(../img/kamen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p , h1 , h2 {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #ffffff;
+}
+
+
+.shadow-block {
+    width: 100%;
+    height: 1000000%;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.386);
+    z-index: 200;
+}
+
+
+
+
+.page-info-box {
+    z-index: 300;
+    width: 950px;
+    padding: 20px;
+    padding-top: 230px;
+    padding-bottom: 278px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    gap: 20px;
+}
+
+.info-box-item {
+    padding: 5px;
+    cursor: pointer;
+    background-color: #00000086;
+    transition: 0.3s;
+}
+
+.info-box-item:hover{
+    background-color: #0000005b;
+    transform: scale(1.2);
+}
+
+.item-title {
+    font-size: 20px;
+}
+
+.item-text {
+    font-size: 19px;
+}
+
+.item-tool-link {
+    text-decoration: none;
+    color: #4800ff;
+    padding: 12px;
+    font-size: 20px;
+}
